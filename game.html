@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psc</title>
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+</head>
+<body>
+
+    <audio src="src/resource/sounds/music_bg.mp3" loop id="backgroundAudio"></audio>
+    <audio src="src/resource/sounds/fx.mp3" loop id="fx"></audio>
+    
+    <div class="container">
+        <h1>Experimento de Volkov</h1>
+        <div class="main">
+        <p id="question"></p>
+        <div class="answers">
+            <button id="yes">Sim</button>
+            <button id="no" class="hide">Não</button>
+            <audio src="src/resource/sounds/btn-sound.mp3" id="btn-sound"></audio>
+        </div>
+    </div>
+    </div>
+    <video class="video-bg" autoplay muted loop>
+        <source src="src/resource/images/bg.mp4" type="video/mp4">
+    </video>
+
+    <script type="module" src="src/javascript/script.js"></script>
+</body>
+</html>
